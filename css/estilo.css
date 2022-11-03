@@ -1,0 +1,137 @@
+#cargando {
+    display: none;
+}
+
+main a {
+    width: 200px;
+    display: inline-block;
+    margin: auto;
+}
+.col-6 img{
+    width: 100%;
+    height: 450px;
+}
+.lead {
+    font-style: italic;
+}
+.frase {
+    font-size: 2rem;
+}
+.img-fluid {
+    position: relative;
+}
+.texto-lg {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+.texto-md {
+    position: absolute;
+    top: 500px;
+    left: 320px;
+}
+.contenido-img-text {
+    border-radius: 10px;
+    background-color: transparent;
+    opacity: 0.8;
+}
+.text-ccontenido {
+    font-size: 1rem;
+    color: brown;
+}
+.contenido-iconos {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0;
+}
+.title-iconos {
+    padding-bottom: 20px;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.contenido-iconos .iconos .icono img {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 250px;
+    padding: 0 100px;
+}
+.icono{
+    display: flex; 
+    flex-direction: column;
+    padding: 0 40px;
+}
+.texto-1 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 20px 0 10px 0;
+    color: #FFD372;
+}
+.texto-2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+/*--------------- section contact ----------*/
+.section-principal {
+    background-color: #fff;
+    padding: 40px 0;
+}
+.section-contacto {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.contactanos {
+    width: 50%;
+}
+.contactanos .title-contacto {
+    padding-bottom: 20px;
+}
+.row-iconos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.row-iconos .columna .icono-contacto {
+    width: 100px;
+}
+
+.row-iconos .columna .icono-contacto img{
+    width: 100%;
+}
+.formulario {
+    width: 50%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+input {
+    width: 400px;
+    margin: 10px 0;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+    max-height: 200px;
+    margin: 10px 0;
+}
+button {
+    width: 100px;
+    margin: 10px 0;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

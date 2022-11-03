@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+
+    <title>Carrito Compras en JavaScript</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="index.html">SHOP-STORE</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="70px"
+                                    width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></img>
+                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                    <table id="lista-carrito" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                        Compra</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Container wrapper -->
+                    <div class="container-fluid">
+                        <!-- Toggle button -->
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+
+                        <!-- Collapsible wrapper -->
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                            <!-- Left links -->
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tienda.html">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+
+
+                            </ul>
+                            <!-- Left links -->
+                        </div>
+                        <!-- Collapsible wrapper -->
+                    </div>
+                    <!-- Container wrapper -->
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <img src="img/fondo.jpg" alt="" class="img-fluid">
+            <h1 class="texto-lg display-1 mt-2 text-info font-weight-light">PRINTED SHIRTS</h1>
+            <h1 class="texto-md display-4 mt-4 mb-4">Tu sitio de poleras estampadas</h1>
+        </div>
+
+        <p class="lead frase text-center pb-4">"La elegancia no es una forma de vida, es un estilo."</p>
+        <p class="lead">
+            <a href="https://getbootstrap.com/docs/5.1/examples/cover/#"
+                class="btn btn-lg btn-secondary fw-bold border-none bg-dark d-flex justify-content-center mb-5">Leer
+                más</a>
+        </p>
+
+    </main>
+    <div class="contenido-img-text container mt-2 mb-2 d-flex justify-content-center bg-light">
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 text-black p-5">
+                <h3 class="contain-text font-weight-200 pb-1">Entendemos tu adicción a las poleras</h3>
+                <p class="text-contenido pt-4">Arte y diseño, Poleras con arte e ilustraciones
+                    que se convertiran en tu polera regalona, tenemos la mejor calidad en poleras
+                    con estampados profesionales. <p>Poleras personalizadas de Algodón de excelente calidad
+                    con diseños en sublimación profesionales. <br>Ya no tienes que preucuparte, hacemos envios 
+                    directos a todo el país con cambios y devoluciones sin costo para tí.</p>
+                    Haz que tu forma de vestir sea mas elegante, como profesional, admirador o seguidor de JavaScript
+                    un lenguaje de programación sorprendente siendo una parte clave del Internet. <br>
+                    <span frase-2>"Aprende a vestir tu cuerpo, ama lo que eres"</span>
+                </p>
+
+            </div>
+            <div class="col-6 rounded"><img src="img/2modelos.jpg" alt=""></div>
+
+        </div>
+
+    </div>
+    <div class="contenido-iconos">
+        <h3 class="title-iconos">¿Porqué elegirnos?</h3>
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/delivery-1.png" alt="">
+                <p class="texto-1">Despachos</p>
+                <p class="texto-2"> A toda Bolivia</p>
+            </div>
+            <div class="icono">
+                <img src="img/3d-printing.png" alt="">
+                <p class="texto-1">Impresión directa</p>
+                <p class="texto-2">De alta calidad</p>
+            </div>
+            <div class="icono">
+                <img src="img/t-shirt.png" alt="">
+                <p class="texto-1">Poleras</p>
+                <p class="texto-2">100% Algodón</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-light">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Conéctate con nosotros en las redes sociales:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>PRINTED SHIRTS
+                        </h6>
+                        <p>
+                            Lo mejor que tienen las camisetas es que pueden ser personalizadas a libre albedrío, tenemos la capacidad de personalizar una prenda.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Productos
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Enlaces útiles
+                        </h6>
+                        <p>
+                            <a href="nosotros.html" class="text-reset">¿Quienes somos?</a>
+                        </p>
+                        <p>
+                            <a href="tienda.html" class="text-reset">Precios</a>
+                        </p>
+                        <p>
+                            <a href="tienda.html" class="text-reset">Pedidos</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Ayuda</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                        <p><i class="fas fa-home me-3"></i> Sucre, Chuquisaca, BO</p>
+                        <p><i class="fas fa-home me-3"></i> Calle Genoveva Rios # 97</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            jasosandoval78@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 591 676 35 655</p>
+                        <p><i class="fas fa-print me-3"></i> + 591 754 59 578</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Sistematica21.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>

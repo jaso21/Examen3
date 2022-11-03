@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"marca": "LEVIS",
+		"imagen": "img/1.jpg",
+		"precio": "100",
+		"detalles": ["VUEJS", "COLOR GRIS OSCURO", "TALLA M"]
+	},
+	{
+		"id": 2,
+		"marca": "ZARA",
+		"imagen": "img/2.jpg",
+		"precio": "300",
+		"detalles": ["ANGULAR", "COLOR GRIS", "TALLA L"]
+	},
+	{
+		"id": 3,
+		"marca": "TRENDSPLANT",
+		"imagen": "img/3.jpg",
+		"precio": "400",
+		"detalles": ["REACTJS", "COLOR NEGRO", "TALLA XL"]
+	},
+	{
+		"id": 4,
+		"marca": "SILBON",
+		"imagen": "img/4.jpg",
+		"precio": "590",
+		"detalles": ["REDUX", "COLOR AMARILLO", "TALLA M"]
+	},
+	{
+		"id": 5,
+		"marca": "LACOSTE",
+		"imagen": "img/5.jpg",
+		"precio": "576",
+		"detalles": ["NODEJS", "COLOR GRIS CLARO", "TALLA S"]
+	},
+	{
+		"id": 6,
+		"marca": "MANGO",
+		"imagen": "img/6.jpg",
+		"precio": "259",
+		"detalles": ["SASS", "COLOR NEGRO", "TALLA S"]
+	},
+	{
+		"id": 7,
+		"marca": "LINO",
+		"imagen": "img/7.jpg",
+		"precio": "429",
+		"detalles": ["HTML5", "COLOR GRIS OSCURO", "TALLA M"]
+	},
+	{
+		"id": 8,
+		"marca": "ATAKONTU",
+		"imagen": "img/8.jpg",
+		"precio": "269",
+		"detalles": ["GITHUB", "COLOR VIOLETA", "TALLA XL"]
+	},
+	{
+		"id": 9,
+		"marca": "GAP",
+		"imagen": "img/9.jpg",
+		"precio": "397",
+		"detalles": ["BULMA", "COLOR ROJO", "TALLA L"]
+	}
+]
